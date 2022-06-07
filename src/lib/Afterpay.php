@@ -1,6 +1,6 @@
 <?php
 
-namespace Netflying\Klarna\lib;
+namespace Netflying\Afterpay\lib;
 
 use Exception;
 
@@ -16,7 +16,7 @@ use Netflying\Payment\data\OrderPayment;
 use Netflying\Payment\data\RequestCreate;
 
 
-class Klarna extends PayInterface
+class Afterpay extends PayInterface
 {
     protected $merchant = null;
     //日志对象
